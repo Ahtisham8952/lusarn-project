@@ -39,7 +39,7 @@ const CompanySizeDropdown = () => {
           >
   Company Size
           </Text>
-    <Image src="/droptipe.svg">
+    <Image alt="img" src="/droptipe.svg">
 
     </Image>
 

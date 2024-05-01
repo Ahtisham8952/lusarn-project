@@ -39,7 +39,7 @@ const CountryDropdowwn = () => {
           >
    Country
           </Text>
-    <Image src="/droptipe.svg">
+    <Image alt="img" src="/droptipe.svg">
 
     </Image>
 

@@ -23,7 +23,7 @@ const FaqAccordian = ({Question,Answer}) => {
             <AccordionButton bg="#FAFBFF" borderRadius={"4px"}  py='20px' px="18px"  _hover={{bg:"#FAFBFF"}} >
               <Box as="span" flex='1' textAlign='left'>
                <Flex gap="16px">
-                <Image src="https://cdn.enochdev.com/enki/greendots.svg"></Image>
+                <Image alt="img" src="https://cdn.enochdev.com/enki/greendots.svg"></Image>
                 <Text
             
             color="#000000"
@@ -38,7 +38,7 @@ const FaqAccordian = ({Question,Answer}) => {
               {isExpanded ? (
                 <MinusIcon fontSize='12px' />
               ) : (
-               <Image h="20px" w="20px" src="https://cdn.enochdev.com/enki/plusicon.svg"></Image>
+               <Image alt="img" h="20px" w="20px" src="https://cdn.enochdev.com/enki/plusicon.svg"></Image>
               )}
             </AccordionButton>
           

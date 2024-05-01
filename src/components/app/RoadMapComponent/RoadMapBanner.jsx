@@ -64,7 +64,7 @@ and Milestones that communicate planned Solution deliverables over a planning ho
         
         </Box>
         <Box w={{base:'100%',lg:'40%'}}>
-<Image ml="auto" src="/roedleftimg.png"></Image>
+<Image alt="img" ml="auto" src="/roedleftimg.png"></Image>
         </Box>
 
     </Flex>

@@ -40,7 +40,7 @@ const KnowAboutUsDropdown = () => {
           >
   * How did you know about us
           </Text>
-    <Image src="/droptipe.svg">
+    <Image alt='img' src="/droptipe.svg">
 
     </Image>
 

@@ -102,8 +102,8 @@ const Footer = () => {
               <Flex alignItem="flexStart" justifyContent="flex-start" mx="-15px" flexWrap="wrap" 
               // gridTemplateRows="masonry"
               >
-                {footerLinks.map((info) => {
-                  return <Box w={{xl: "14.285%", md: "25%", sm: "33.33%", base: "50%"}} px="15px" mt={{xl: "0px", base: "20px"}}>
+                {footerLinks.map((info,index) => {
+                  return <Box key={index} w={{xl: "14.285%", md: "25%", sm: "33.33%", base: "50%"}} px="15px" mt={{xl: "0px", base: "20px"}}>
                     <FooterMenu data={info}/>
                   </Box>
                 })}

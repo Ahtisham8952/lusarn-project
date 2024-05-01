@@ -79,7 +79,7 @@ const HomeBanner = () => {
                             lineHeight="140.8%"                            
                             letterSpacing="0.03em"
                             color="#FFFFFF"
-                        >Airdrop of <Text as="span" color="#FFE400">18,000,000 EMLD</Text> tokens available to the first 1000 claims"</Text>
+                        >Airdrop of <Text as="span" color="#FFE400">18,000,000 EMLD</Text> tokens available to the first 1000 claims</Text>
                     </Box>
                 </Container>
             </Box>

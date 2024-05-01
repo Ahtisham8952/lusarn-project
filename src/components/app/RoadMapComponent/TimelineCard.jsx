@@ -12,8 +12,9 @@ const TimelineCard = ({TimeLine}) => {
     <Box mb="100px">
         <Grid mb="40px"  templateColumns={{ base: "repeat(1, 1fr)",sm:"repeat(1, 1fr)", md: "repeat(2, 1fr)",lg:'repeat(3, 1fr)' }}  w="100%" gap="25px">
 
-        {TimeLine.map((li) => (
+        {TimeLine.map((li,index) => (
         <Box 
+        key={index}
         bgImage="/timelinebg.png"
           bgSize="100% 100%"
         onClick={onScheduleOpen}
@@ -93,7 +94,7 @@ const TimelineCard = ({TimeLine}) => {
             <Flex justifyContent={"space-between"} w="100%" gap="10px" flexWrap={{base:'wrap',xxxl:'nowrap'}} alignItems="center">
                 <Flex gap="16px">
                     <Flex gap="2px" alignItems={"center"}>
-                        <Image src="/userimg.svg"></Image>
+                        <Image alt='img' src="/userimg.svg"></Image>
                         <Text
             
             color="#FFFFFF"
@@ -106,9 +107,9 @@ const TimelineCard = ({TimeLine}) => {
           </Text>
                     </Flex>
                     <Flex alignItems={"center"} gap="6px">
-                    <Image src="/stargive.svg"></Image>
-                    <Image src="/stargive.svg"></Image>
-                    <Image src="/stargive.svg"></Image>  
+                    <Image alt='img' src="/stargive.svg"></Image>
+                    <Image alt='img' src="/stargive.svg"></Image>
+                    <Image alt='img' src="/stargive.svg"></Image>  
                     </Flex>
                 </Flex>
                 <Text
@@ -130,7 +131,7 @@ const TimelineCard = ({TimeLine}) => {
         ))}
         </Grid>
         <Flex alignItems={"center"} gap="11px" justifyContent={"center"} cursor="pointer">
-            <Image src="/lushcirclesubmit.svg"></Image>
+            <Image alt='img' src="/lushcirclesubmit.svg"></Image>
             <Text
             
             color="#FFC93F"

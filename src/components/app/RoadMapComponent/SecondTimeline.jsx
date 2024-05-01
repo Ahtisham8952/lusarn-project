@@ -15,7 +15,7 @@ const SecondTimeline = () => {
        <Box>
     <Flex justifyContent={"space-between"} alignItems="end">
         <Box w="12.5%" display={"flex"} justifyContent="center" mb="16px" flexDirection={"column"} alignItems="center">
-            <Image mb="5px" src="/chotamissle.svg"></Image>
+            <Image alt='img' mb="5px" src="/chotamissle.svg"></Image>
          <Box borderRadius={"70px"} border="1px solid rgba(255, 255, 255, 0.2)" p="7px 11px"
           color="#FFFFFF"
           fontSize="13px"
@@ -26,7 +26,7 @@ const SecondTimeline = () => {
          </Box>
         </Box>
        <Box w="12.5%" display={"flex"} justifyContent="center" mb="16px" flexDirection={"column"} alignItems="center">
-       <Image mb="5px" src="/soundbars.svg"></Image>
+       <Image alt='img' mb="5px" src="/soundbars.svg"></Image>
            
          <Box borderRadius={"70px"} border="1px solid rgba(255, 255, 255, 0.2)" p="7px 11px"
           color="#FFFFFF"
@@ -38,7 +38,7 @@ const SecondTimeline = () => {
          </Box>
         </Box>
         <Box w="12.5%" display={"flex"} justifyContent="center" mb="16px" flexDirection={"column"} alignItems="center">
-        <Image mb="5px" src="/chotamissle.svg"></Image>
+        <Image alt='img'  mb="5px" src="/chotamissle.svg"></Image>
          <Box borderRadius={"70px"} border="1px solid rgba(255, 255, 255, 0.2)" p="7px 11px"
           color="#FFFFFF"
           fontFamily="Nasalization"
@@ -71,7 +71,7 @@ const SecondTimeline = () => {
          </Box>
         </Box>
         <Box w="12.5%" display={"flex"} justifyContent="center" mb="16px" flexDirection={"column"} alignItems="center">
-        <Image mb="5px" src="/chotamissle.svg"></Image>
+        <Image alt='img' mb="5px" src="/chotamissle.svg"></Image>
          <Box borderRadius={"70px"} border="1px solid rgba(255, 255, 255, 0.2)" p="7px 11px"
           color="#FFFFFF"
           fontSize="13px"

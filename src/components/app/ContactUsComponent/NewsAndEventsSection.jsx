@@ -56,9 +56,9 @@ const NewsAndEventsSection = () => {
         w="100%"
         gap="27px"
       >
-        {Locations.map((list) => (
+        {Locations.map((list,index) => (
           <Box
-           
+           key={index}
             colorScheme="linear-gradient(#2b026d, #2b026d) padding-box, linear-gradient(10deg, #FFBA07, #FB24FF) border-box"
             borderRadius={"24px"}
             px="20px"
@@ -72,7 +72,7 @@ const NewsAndEventsSection = () => {
       display: '',
             }}
           >
-            <Image mb="40px" src={list.Image}></Image>
+            <Image alt="img" mb="40px" src={list.Image}></Image>
 
             <Text
             mb="16px"
@@ -103,9 +103,9 @@ const NewsAndEventsSection = () => {
           >
       Read More
           </Text>
-          <Image src="/righttwoyellow.svg"></Image>
+          <Image alt="img" src="/righttwoyellow.svg"></Image>
                 </Flex>
-                <Image src="/metatag.svg"></Image>
+                <Image alt="img" src="/metatag.svg"></Image>
             </Flex>
           </Box>
         ))}

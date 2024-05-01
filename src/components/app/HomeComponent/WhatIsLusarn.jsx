@@ -43,8 +43,8 @@ const WhatIsLusarn = () => {
                         </Box>
 
                         <Box w="50%">
-                            {lusarnData.map((info) => {
-                                return <Box mb="42px">
+                            {lusarnData.map((info,index) => {
+                                return <Box key={index} mb="42px">
                                     <WhatLusarnContent data={info}/>
                                 </Box>
                             })}

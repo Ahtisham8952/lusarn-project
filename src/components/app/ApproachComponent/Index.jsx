@@ -44,7 +44,7 @@ const ApproachMain = () => {
           </Text>
         </Box>
     <Box w={{base:'100%',md:'50%'}}>
-            <Image objectFit={"cover"} h="100%" src="https://cdn.enochdev.com/enki/approachimage1.png"></Image>
+            <Image alt='img' objectFit={"cover"} h="100%" src="https://cdn.enochdev.com/enki/approachimage1.png"></Image>
         </Box>
       
         
@@ -55,7 +55,7 @@ const ApproachMain = () => {
  <Box maxW={"1417px"} w='100%' mr="auto">
     <Flex alignItems={"center"} gap='32px' mb='99px' flexDirection={{base:'column',md:'row'}}>
     <Box w={{base:'100%',md:'50%'}}>
-            <Image objectFit={"cover"} h="100%" src="https://cdn.enochdev.com/enki/approachimage2.png"></Image>
+            <Image alt='img' objectFit={"cover"} h="100%" src="https://cdn.enochdev.com/enki/approachimage2.png"></Image>
         </Box>
         <Box w={{base:'100%',md:'50%'}}>
         <Heading

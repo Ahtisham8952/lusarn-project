@@ -35,13 +35,13 @@ const AboutCards = () => {
     <Box >
         <Grid gap={{base:'32px',sm:'0px'}} mt="40px"  templateColumns={{ base: "repeat(1, 1fr)",sm:"repeat(2, 1fr)", md: "repeat(2, 1fr)",lg:'repeat(2, 1fr)' }}  w="100%" >
 
-        {Person.map((li) => (
-       <Box _first={{mt:{base:'0px',sm:'-40px'}}} _last={{mt:{base:'0px',sm:'40px'}}} bg={li.bg} borderRadius={"30px"} px={{base:'15px',xxl:'15px',xxxl:'30px'}} pt={{base:'30px',md:'52px'}} pb={{base:'30px',md:'84px'}} h={{base:'auto',md:'402px'}} mx="16px" >
+        {Person.map((li,index) => (
+       <Box key={index} _first={{mt:{base:'0px',sm:'-40px'}}} _last={{mt:{base:'0px',sm:'40px'}}} bg={li.bg} borderRadius={"30px"} px={{base:'15px',xxl:'15px',xxxl:'30px'}} pt={{base:'30px',md:'52px'}} pb={{base:'30px',md:'84px'}} h={{base:'auto',md:'402px'}} mx="16px" >
         <Box maxW={"260px"} mx="auto">
 
        
         <Box maxW={"138px"} mx="auto" mb="24px" border="5px solid " borderColor={li.bordercol} borderRadius={"30px"}>
-            <Image src="/nameimge.svg"></Image>
+            <Image alt="img" src="/nameimge.svg"></Image>
         </Box>
         <Text
             textAlign={"center"}

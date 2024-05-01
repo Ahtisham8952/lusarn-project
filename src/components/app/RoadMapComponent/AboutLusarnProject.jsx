@@ -11,7 +11,7 @@ const AboutLusarnProject = () => {
           borderRadius={"80px"}
   backdropFilter=" blur(-4px)"
   >
-    <Image src="/keera.png" position={"absolute"} right={{base:'0px',xxl:'0px',xxxl:'-39px'}}></Image>
+    <Image alt='img' src="/keera.png" position={"absolute"} right={{base:'0px',xxl:'0px',xxxl:'-39px'}}></Image>
     <Flex alignItems={"center"} gap="50px" flexDirection={{base:"column",lg:'row'}}> 
         <Box w={{base:'100%',lg:'50%'}}>
 <AboutCards/>

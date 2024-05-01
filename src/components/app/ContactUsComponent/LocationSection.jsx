@@ -19,7 +19,7 @@ const LocationSection = () => {
     <Box maxW={{ xxxl: "1560px", xxl: "1440px", xl: "1280px", lg: "991px", md: "768px", sm: "575px", base: "100%" }} w="100%" mx="auto" px="20px">
       <Flex flexDirection={{base:'column',sm:'row'}}>
         <Box w={{base:'100%',sm:'25%'}}>
-          <Image src="/clocksides.svg"></Image>
+          <Image alt="img" src="/clocksides.svg"></Image>
         </Box>
         <Box
           w={{base:'100%',sm:'50%'}}
@@ -62,8 +62,9 @@ const LocationSection = () => {
         w="100%"
         gap={{base:'20px',md:'30px',xl:'40px',xxl:'74px'}}
       >
-        {Locations.map((list) => (
+        {Locations.map((list,index) => (
           <Box
+          key={index}
             border="1px solid #FFBA07"
             colorScheme="linear-gradient(#2b026d, #2b026d) padding-box, linear-gradient(10deg, #FFBA07, #FB24FF) border-box"
             borderRadius={"24px"}
@@ -82,7 +83,7 @@ const LocationSection = () => {
       display: '',
             }}
           >
-            <Image mb={{base:'17px',lg:'34px'}} src={list.Image}></Image>
+            <Image alt="img" mb={{base:'17px',lg:'34px'}} src={list.Image}></Image>
 
             <Text
               textAlign={"center"}

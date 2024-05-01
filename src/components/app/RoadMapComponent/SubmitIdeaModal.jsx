@@ -23,7 +23,7 @@ const SubmitIdeaModal = () => {
    <>
       {/* <Button onClick={onOpen}>Open Modal</Button> */}
       <Flex onClick={onOpen} alignItems={"center"} gap="11px" justifyContent={"center"} cursor="pointer">
-            <Image src="/lushcirclesubmit.svg"></Image>
+            <Image alt='img' src="/lushcirclesubmit.svg"></Image>
             <Text
             
             color="#FFC93F"
@@ -131,7 +131,7 @@ const SubmitIdeaModal = () => {
         <Flex gap="20px" alignItems={"center"} flexDirection={{base:'column',sm:'row'}}>
           <Box bg="white" borderRadius={"8px"} pt="4px" px="32px" w="100%" h="48px">
             <Flex>
-            <Image src="/mailboxed.svg"></Image>
+            <Image alt='img' src="/mailboxed.svg"></Image>
             <Input border="none" _focusVisible={{border:'none'}} placeholder="Email address"></Input>
             </Flex>
             

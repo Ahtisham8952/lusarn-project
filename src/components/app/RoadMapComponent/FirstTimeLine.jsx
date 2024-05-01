@@ -18,7 +18,7 @@ const FirstTimeLine = () => {
             
 
             
-            <Image mb="5px" src="/chotamissle.svg"></Image>
+            <Image alt='img' mb="5px" src="/chotamissle.svg"></Image>
          <Box borderRadius={"70px"} border="1px solid rgba(255, 255, 255, 0.2)" p="7px 11px"
          position={"relative"}
           color="#FFFFFF"
@@ -65,7 +65,7 @@ const FirstTimeLine = () => {
          </Box>
         </Box>
         <Box w="14%" display={"flex"} justifyContent="center" mb="16px" flexDirection={"column"} alignItems="center">
-            <Image mb="5px" src="/chotamissle.svg"></Image>
+            <Image alt='img' mb="5px" src="/chotamissle.svg"></Image>
          <Box borderRadius={"70px"} border="1px solid rgba(255, 255, 255, 0.2)" p="7px 11px"
           color="#FFFFFF"
           fontSize="13px"
@@ -76,7 +76,7 @@ const FirstTimeLine = () => {
          </Box>
         </Box>
         <Box w="14%" display={"flex"} justifyContent="center" mb="16px" flexDirection={"column"} alignItems="center">
-            <Image mb="5px" src="/chotamissle.svg"></Image>
+            <Image alt='img' mb="5px" src="/chotamissle.svg"></Image>
          <Box borderRadius={"70px"} border="1px solid rgba(255, 255, 255, 0.2)" p="7px 11px"
           color="#FFFFFF"
           fontSize="13px"
@@ -427,7 +427,7 @@ Layer-2 Mainnet
 Improvements  
           </Text>
           </Box>
-          <Image src="/infinesor.svg"></Image>
+          <Image alt='img' src="/infinesor.svg"></Image>
           
 
         </Box>

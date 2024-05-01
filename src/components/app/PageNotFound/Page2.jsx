@@ -18,7 +18,7 @@ const Page2 = () => {
 
 <Box py={{base:'100px',md:'222px'}}>
     <Box mb={{base:'32px',lg:'68px'}}>
-    <Image mx="auto" src="/colardao.webp"></Image>
+    <Image alt='img' mx="auto" src="/colardao.webp"></Image>
     </Box>
     <Text
             textAlign={"center"}
@@ -43,7 +43,7 @@ const Page2 = () => {
           >
       Home
           </Text>
-          <Image src="/righttwoyellow.svg"></Image>
+          <Image alt='img' src="/righttwoyellow.svg"></Image>
                 </Flex>
                
             

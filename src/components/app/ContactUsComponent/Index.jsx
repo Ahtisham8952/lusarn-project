@@ -18,11 +18,11 @@ const ContactUs = () => {
       position="relative"
       pt={{base:'140px',md:'120px',lg:'140px',xl:'180px',xxl:'220px',xxxl:'258px'}}
     >
-      <Image src="/inkdrops.png" pos="absolute" left="0px" top="0px" zIndex="1" />
+      <Image alt='img' src="/inkdrops.png" pos="absolute" left="0px" top="0px" zIndex="1" />
       <Box position="relative"  maxW={{ xxxl: "1560px", xxl: "1440px", xl: "1280px", lg: "991px", md: "768px", sm: "575px", base: "100%" }} w="100%" mx="auto" px="20px">
         <Flex justifyContent={"space-between"} alignItems="center" gap="20px" flexDirection={{base:'column-reverse',lg:'row'}}>
           <Box w={{base:'100%',lg:'40%'}}>
-            <Image position={"relative"} zIndex="0" src="/astrocropped.png"></Image>
+            <Image alt='img' position={"relative"} zIndex="0" src="/astrocropped.png"></Image>
             <Box mt="30px"  position={"relative"} zIndex="999">
               <Box mb="28px">
               <Text
@@ -34,7 +34,7 @@ const ContactUs = () => {
           >
       Backed by the best
           </Text>
-          <Image src="/Consyniclogo.svg"></Image>
+          <Image alt='img' src="/Consyniclogo.svg"></Image>
               </Box>
               <Box mb="28px">
               <Text
@@ -47,9 +47,9 @@ const ContactUs = () => {
       Support for major blockchains
           </Text>
           <Flex gap="26px" flexWrap={"wrap"}>
-          <Image src="/socialwalleticon-1.svg"></Image>
-          <Image src="/socialwalleticon-2.svg"></Image>
-          <Image src="/socialwalleticon-3.svg"></Image>
+          <Image alt='img' src="/socialwalleticon-1.svg"></Image>
+          <Image alt='img' src="/socialwalleticon-2.svg"></Image>
+          <Image alt='img' src="/socialwalleticon-3.svg"></Image>
 
           </Flex>
           
@@ -65,8 +65,8 @@ const ContactUs = () => {
      Fungible and non-fungible token support: Ethereum and Binance
           </Text>
           <Flex gap="19px">
-          <Image src="/gorupthet-1.svg"></Image>
-          <Image src="/gorupthet-2.svg"></Image>
+          <Image alt='img' src="/gorupthet-1.svg"></Image>
+          <Image alt='img' src="/gorupthet-2.svg"></Image>
           
 
           </Flex>
@@ -106,7 +106,7 @@ const ContactUs = () => {
 
     </Box>
     <Box position={"relative"} pt={{base:'40px',md:'60px',lg:'80px',xl:'100px',xxl:'120px',xxxl:'140px'}}>
-      <Image h={{base:'240px',md:'496px'}} src="/missleRight.svg" position={"absolute"} right="0px" top="61px"></Image>
+      <Image alt='img' h={{base:'240px',md:'496px'}} src="/missleRight.svg" position={"absolute"} right="0px" top="61px"></Image>
 
     <LocationSection />
   </Box>

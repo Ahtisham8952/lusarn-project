@@ -23,8 +23,8 @@ const FooterMenu = ({ data }) => {
                     letterSpacing="0.03em"
                     color="#FFFFFF"
                 >
-                    {data?.listItem?.map((ListItems) =>
-                        <ListItem mb="12px"><Link href="#" transition="0.3s" _hover={{ opacity: "0.7",  }}>{ListItems?.footerLink}</Link></ListItem>
+                    {data?.listItem?.map((ListItems,index) =>
+                        <ListItem key={index} mb="12px"><Link href="#" transition="0.3s" _hover={{ opacity: "0.7",  }}>{ListItems?.footerLink}</Link></ListItem>
                     )}
                     
                 </UnorderedList>

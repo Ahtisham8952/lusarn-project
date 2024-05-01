@@ -84,9 +84,9 @@ is a schedule
       Marketplace Widgets for iOS14
           </Text>
           <Flex alignItems={"center"} gap="16px">
-            <Image src="/downups.svg"></Image>
+            <Image alt="img" src="/downups.svg"></Image>
             <Flex gap="2px" alignItems={"center"}>
-                        <Image src="/blkuser.svg"></Image>
+                        <Image alt="img" src="/blkuser.svg"></Image>
                         <Text
             
             color="#4F6182"
@@ -101,7 +101,7 @@ is a schedule
             </Flex>
             <Flex gap="12px" alignItems={"center"}>
                 <Box>
-                <Image src="/gorilamons.svg"></Image>
+                <Image alt="img" src="/gorilamons.svg"></Image>
                 </Box>
                 <Box>
                     <Flex alignItems={"center"} gap="10px">
@@ -204,7 +204,7 @@ is a schedule
         <Flex gap="20px" alignItems={"center"} flexDirection={{base:'column',sm:'row'}}>
           <Box bg="white" borderRadius={"8px"} pt="4px" px="32px" w="100%" h="48px">
             <Flex>
-            <Image src="/mailboxed.svg"></Image>
+            <Image alt="img" src="/mailboxed.svg"></Image>
             <Input border="none" _focusVisible={{border:'none'}} placeholder="Email address"></Input>
             </Flex>
             

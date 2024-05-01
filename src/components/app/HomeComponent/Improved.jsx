@@ -48,8 +48,8 @@ const Improved = () => {
                         </Text>
 
                         <Flex mx="-15px">
-                            {ImprovedData.map((info) => {
-                                return <Box w="33.33%" px="15px">
+                            {ImprovedData.map((info,index) => {
+                                return <Box key={index} w="33.33%" px="15px">
                                     <ImprovedContent data={info} />
                                 </Box>
                             })}

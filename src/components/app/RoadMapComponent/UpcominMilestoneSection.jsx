@@ -21,7 +21,7 @@ const MileStons = [
 const UpcominMilestoneSection = () => {
   return (
     <Box position={"relative"} >
-        <Image position={"absolute"} bottom="-48px"  right={"39%"} src="/chotaheera.svg"></Image>
+        <Image alt="img" position={"absolute"} bottom="-48px"  right={"39%"} src="/chotaheera.svg"></Image>
       <Flex flexDirection={"column"} justifyContent="center" alignItems={"center"} >
         
        
@@ -58,9 +58,9 @@ const UpcominMilestoneSection = () => {
         w="100%"
         gap="27px"
       >
-        {MileStons.map((list) => (
+        {MileStons.map((list ,index) => (
           <Box
-           
+           key={index}
           bgImage="/border-bg.png"
           bgSize="100% 100%"
           bgRepeat="no-repeat"
@@ -70,9 +70,9 @@ const UpcominMilestoneSection = () => {
             
            
           >
-            <Image mb="40px" src={list.Image}></Image>
+            <Image alt="img" mb="40px" src={list.Image}></Image>
             <Flex  alignItems={"center"} gap="20px">
-                <Image src="/calendarverb.svg"></Image>
+                <Image alt="img" src="/calendarverb.svg"></Image>
                 <Text
             
               color="#FFFFFF"
@@ -107,7 +107,7 @@ const UpcominMilestoneSection = () => {
           >
       Read More
           </Text>
-          <Image src="/righttwoyellow.svg"></Image>
+          <Image alt="img"  src="/righttwoyellow.svg"></Image>
                 </Flex>
                
             </Flex>

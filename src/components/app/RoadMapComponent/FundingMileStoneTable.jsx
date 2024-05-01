@@ -209,8 +209,8 @@ const FundingMileStoneTable = () => {
       </Tr>
     </Thead>
     <Tbody>
-    {Miledata.map((d) => (
- <Tr>
+    {Miledata.map((d ,index) => (
+ <Tr key={index}>
  <Td borderBottom={"1px solid "} borderColor="rgba(255, 255, 255, 0.4)">
  <Text
             

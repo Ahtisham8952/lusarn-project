@@ -69,8 +69,9 @@ const CommunitySection = () => {
         gap="24px"
         flexWrap="wrap"
       >
-        {Locations.map((list) => (
+        {Locations.map((list,index) => (
           <Box
+          key={index}
           w={{base:'46%',md:'30%',xl:'23%',xxl:'15%'}}
          
             colorScheme="linear-gradient(#2b026d, #2b026d) padding-box, linear-gradient(10deg, #FFBA07, #FB24FF) border-box"
@@ -90,7 +91,7 @@ const CommunitySection = () => {
             }}
           >
             <Box mb={{base:'17px',lg:'34px'}}>
-            <Image mx={"auto"} h={{base:'60px',xxl:'auto'}}  src={list.Image}></Image>
+            <Image alt="img" mx={"auto"} h={{base:'60px',xxl:'auto'}}  src={list.Image}></Image>
             </Box>
            
 

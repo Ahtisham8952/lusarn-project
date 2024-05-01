@@ -6,7 +6,7 @@ const Newsletter = () => {
         <>
             <Flex mb="42px" bg="rgba(47, 255, 230, 0.1)" borderRadius="16px" backdropFilter="blur(2px)" px={{xl: "22px", base: "2px"}} py={{xl: "34px", base: "20px"}} alignItems="center" flexWrap="wrap" mx="auto">
                 <Flex px="18px" alignItems="center" w={{xl: "60%", lg: "50%", base: "100%"}}>
-                    <Image src="/newsletter-img.svg" mr="24px" maxW={{md: "auto", base: "60px"}} />
+                    <Image alt='img' src="/newsletter-img.svg" mr="24px" maxW={{md: "auto", base: "60px"}} />
                     <Text
                         fontWeight="400"
                         fontSize={{xxl: "18px", md: "16px", base: "14px" }}

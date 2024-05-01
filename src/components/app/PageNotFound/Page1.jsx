@@ -17,7 +17,7 @@ const Page1 = () => {
     <Container maxW={{ xxxl: "1560px", xxl: "1440px", xl: "1280px", lg: "991px", md: "768px", sm: "575px", base: "100%" }} w="100%" mx="auto" px="20px">
 
 <Box py={{base:'100px',md:'222px'}}>
-    <Image mx="auto" src="/FounderBay.webp"></Image>
+    <Image alt='img' mx="auto" src="/FounderBay.webp"></Image>
 
 </Box>
 
