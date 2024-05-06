@@ -11,7 +11,7 @@ const FundFact = () => {
       bgRepeat="no-repeat"
       py="99px"
    >
-    <Box maxW={"1040px"} px="20px" mx="auto">
+    <Box maxW={"1040px"} px="20px" mx="auto" mt="100px">
     <Text
             
             color="#FFFFFF"
@@ -26,7 +26,7 @@ const FundFact = () => {
     
     <Grid gap="32px"  templateColumns={{ base: "repeat(1, 1fr)",sm:"repeat(1, 1fr)", md: "repeat(1, 1fr)",lg:'repeat(2, 1fr)' }}  w="100%" >
         <Box>
-            <Image alt="img" w='100%' src='https://cdn.enochdev.com/enki/fundimage1.png'></Image>
+            <Image alt="img" w='100%' src='/fundimage1.png'></Image>
         </Box>
         <Box>
         <Text
@@ -39,7 +39,7 @@ const FundFact = () => {
       Forem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
           </Text>
           <Box mt="20px" maxW={"160px"} w="1005" position={"relative"} overflow="visible">
-          <Image alt="img" ml="auto" src="https://cdn.enochdev.com/enki/roundbar.svg"></Image>
+          <Image alt="img" ml="auto" src="/roundbar.svg"></Image>
           <Box
            position="absolute"
            top="50%"
@@ -56,11 +56,11 @@ const FundFact = () => {
          
         </Box>
         <Box>
-            <Image alt="img" w='100%' src='https://cdn.enochdev.com/enki/fundimage2.png'></Image>
+            <Image alt="img" w='100%' src='/fundimage2.png'></Image>
         </Box>
        
         <Box mt={{base:'0px',md:'-32px'}}>
-            <Image alt="img" w='100%' src='https://cdn.enochdev.com/enki/fundimage3.png'></Image>
+            <Image alt="img" w='100%' src='/fundimage3.png'></Image>
         </Box>
     </Grid>
     </Box>

@@ -26,7 +26,7 @@ const PartnershipTabContent = () => {
 
    </Box>
    <Box my="33px">
-    <Image alt="img" src="https://cdn.enochdev.com/pluto-fund/recaptche.svg"></Image>
+    <Image alt="img" src="/recaptche.svg"></Image>
    </Box>
    <Button bg="transparent" colorScheme={"transparent"} 
      color="#FFFFFF"
